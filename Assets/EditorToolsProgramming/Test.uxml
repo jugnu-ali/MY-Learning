@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/EditorToolsProgramming/test.uss?fileID=7433441132597879392&amp;guid=055ffa5a6b223a4498fa1d137833fe77&amp;type=3#test" />
+    <ui:VisualElement name="PairingContainer" class="parent">
+        <ui:VisualElement name="ProgressContainer" class="container">
+            <ui:Label text="Label" display-tooltip-when-elided="true" class="header" style="justify-content: space-between; align-items: center;" />
+            <ui:ProgressBar title="my-progress" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ButtonContainer" class="container">
+            <ui:Label text="Label" display-tooltip-when-elided="true" class="header" />
+            <ui:Button text="Button" display-tooltip-when-elided="true" />
+            <ui:Toggle label="Toggle" value="false" class="toggle" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

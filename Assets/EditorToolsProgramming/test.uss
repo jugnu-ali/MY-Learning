@@ -1,0 +1,23 @@
+.header {
+    color: rgba(0, 94, 255, 255);
+    font-size: 20px;
+    -unity-text-align: middle-left;
+}
+
+.toggle {
+}
+
+.toggle:checked {
+    opacity: 0.55;
+}
+
+.container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.parent {
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
