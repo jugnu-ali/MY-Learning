@@ -60,6 +60,7 @@ public class InAirState : LocomotionState
 {
     public void Crouch(LocomotionContext context)
     {   
+
     }
 
     public void Fall(LocomotionContext context)
@@ -73,6 +74,7 @@ public class InAirState : LocomotionState
 
     public void Jump(LocomotionContext context)
     {   
+
     }
 }
 
